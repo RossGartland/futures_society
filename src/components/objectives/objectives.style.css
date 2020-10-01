@@ -1,0 +1,21 @@
+.objectives-container {
+    /* height: 100vh; */
+    background-color: #e1ad01;
+}
+
+.objectives-container ul {
+    text-align: center;
+    color: white;
+    padding: 100px;
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: xx-large;
+    list-style: none;
+}
+.objectives-container ul li {
+    padding: 15px;
+}
+#robot-man {
+    float: right;
+    max-width: 500px;
+    max-height: 1000px;
+}

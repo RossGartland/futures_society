@@ -1,0 +1,16 @@
+.about-container {
+    height: 100vh;
+    color: white;
+    font-family: 'Ropa Sans', sans-serif;
+    padding-top: 50px;
+}
+
+.about-container p {
+    text-align: center;
+    font-size: xx-large;
+    padding: 10px 200px 50px 200px;
+}
+.about-container .row {
+    margin-right: 0px;
+    margin-left: 0px;
+}

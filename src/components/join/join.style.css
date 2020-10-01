@@ -1,0 +1,10 @@
+.join-container  {
+    text-align: center;
+    color: white;
+    padding: 100px;
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: xx-large;
+}
+.objectives-container ul li {
+    padding: 15px;
+}

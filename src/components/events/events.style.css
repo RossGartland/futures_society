@@ -1,0 +1,16 @@
+.events-container {
+    /* height: 50vh; */
+    background-color:#e1ad01;
+}
+.events-container {
+    color: white;
+    font-family: 'Ropa Sans', sans-serif;
+    text-align: center;
+}
+.events-container h1{
+    padding-top:100px;
+}
+.events-container p {
+    padding: 15px;
+    font-size: xx-large;
+}

@@ -1,0 +1,11 @@
+.benefits-container ul {
+  text-align: center;
+  color: white;
+  padding: 100px;
+  font-family: "Ropa Sans", sans-serif;
+  font-size: xx-large;
+  list-style: none;
+}
+.benefits-container ul li {
+  padding: 15px;
+}
