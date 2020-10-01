@@ -1,21 +1,29 @@
 .objectives-container {
     /* height: 100vh; */
-    background-color: #e1ad01;
+    background-color: #ce9e02;
 }
-
-.objectives-container ul {
+.objectives-container {
     text-align: center;
     color: white;
-    padding: 100px;
     font-family: 'Ropa Sans', sans-serif;
+    padding-top: 50px;
+}
+.objectives-container ul {
+    padding-bottom: 50px;
     font-size: xx-large;
     list-style: none;
 }
 .objectives-container ul li {
     padding: 15px;
 }
-#robot-man {
-    float: right;
-    max-width: 500px;
-    max-height: 1000px;
+@media only screen and (max-width: 1200px) {
+    .objectives-container ul {
+      font-size: x-large;
+      padding: 10px;
+    }
+}
+@media only screen and (max-width: 600px) {
+  .objectives-container ul {
+    font-size: x-large;
+  }
 }

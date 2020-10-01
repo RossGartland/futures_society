@@ -1,11 +1,25 @@
-.benefits-container ul {
+.benefits-container {
   text-align: center;
   color: white;
-  padding: 100px;
-  font-family: "Ropa Sans", sans-serif;
+  font-family: 'Ropa Sans', sans-serif;
+  padding-top: 50px;
+}
+.benefits-container ul {
+  padding: 0px;
   font-size: xx-large;
   list-style: none;
 }
 .benefits-container ul li {
   padding: 15px;
+}
+@media only screen and (max-width: 1200px) {
+  .benefits-container ul {
+    font-size: x-large;
+    padding: 10px;
+  }
+}
+@media only screen and (max-width: 600px) {
+.benefits-container ul {
+  font-size: x-large;
+}
 }

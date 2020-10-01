@@ -1,16 +1,29 @@
 .about-container {
-    height: 100vh;
-    color: white;
-    font-family: 'Ropa Sans', sans-serif;
-    padding-top: 50px;
+  min-height: 100vh;
+  color: white;
+  font-family: "Ropa Sans", sans-serif;
+  padding-top: 50px;
 }
-
+ 
 .about-container p {
-    text-align: center;
-    font-size: xx-large;
-    padding: 10px 200px 50px 200px;
+  text-align: center;
+  font-size: xx-large;
+  padding: 10px 200px 50px 200px;
 }
 .about-container .row {
-    margin-right: 0px;
-    margin-left: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
 }
+@media only screen and (max-width: 1200px) {
+    .about-container p {
+      font-size: x-large;
+      padding: 10px 50px 50px 50px;
+    }
+}
+@media only screen and (max-width: 600px) {
+  .about-container p {
+    font-size: large;
+    padding: 10px 0px 50px 0px;
+  }
+}
+
