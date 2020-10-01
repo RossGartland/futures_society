@@ -1,20 +1,24 @@
-.join-container  {
-    text-align: center;
-    color: white;
-    padding-top: 50px;
-    font-family: 'Ropa Sans', sans-serif;
-    font-size: xx-large;
-} 
-.objectives-container ul li {
-    padding: 15px;
+.join-container {
+  text-align: center;
+  color: white;
+  padding-top: 50px;
+  font-family: "Ropa Sans", sans-serif;
+  font-size: xx-large;
+}
+.join-container p {
+  text-align: center;
+  font-size: xx-large;
+  padding: 10px 200px 50px 200px;
 }
 @media only screen and (max-width: 1200px) {
-    .join-container p {
-      font-size: x-large;
-    }
+  .join-container p {
+    font-size: x-large;
+    padding: 10px 50px 50px 50px;
+  }
 }
 @media only screen and (max-width: 600px) {
   .join-container p {
-    font-size: large;
+    font-size: x-large;
+    padding: 10px 0px 50px 0px;
   }
 }
