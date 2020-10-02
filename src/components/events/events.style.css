@@ -1,16 +1,27 @@
 .events-container {
-    /* height: 50vh; */
-    background-color:#ce9e02;
+  /* height: 50vh; */
+  background-color: #ce9e02;
+  text-align: center;
+  color: white;
+  font-family: "Ropa Sans", sans-serif;
+  padding-top: 50px;
 }
-.events-container {
-    color: white;
-    font-family: 'Ropa Sans', sans-serif;
-    text-align: center;
+.events-container ul {
+  padding-bottom: 50px;
+  font-size: xx-large;
+  list-style: none;
 }
-.events-container h1{
-    padding-top:100px;
+.events-container ul li {
+  padding: 15px;
 }
-.events-container p {
-    padding: 15px;
-    font-size: xx-large;
+@media only screen and (max-width: 1200px) {
+  .events-container ul {
+    font-size: x-large;
+    padding: 10px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .events-container ul {
+    font-size: x-large;
+  }
 }

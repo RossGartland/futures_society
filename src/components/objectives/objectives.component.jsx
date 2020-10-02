@@ -1,6 +1,5 @@
 import React from 'react';
 import './objectives.style.css';
-import RobotMan from '../../assets/robot.png';
 
 const Objectives = () => {
     return (
@@ -12,7 +11,6 @@ const Objectives = () => {
                 <li>To learn about new technology that is advancing the human race.</li>
                 <li>To connect with industry leaders to discover how their companies are having an impact on society.</li>
             </ul>
-            {/* <img id="robot-man" src={RobotMan} alt="Robot man" /> */}
         </div>
     )
 }

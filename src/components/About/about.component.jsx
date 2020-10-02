@@ -1,7 +1,8 @@
 import React from 'react';
 import './about.style.css';
 import Team from './Team/Team.component';
-import RossImage from '../../assets/self.jpg';
+import RossImage from '../../assets/about/ross.jpg';
+import JordanImage from '../../assets/about/jordan.jpg';
 
 const About = () => {
     return (
@@ -15,7 +16,7 @@ const About = () => {
                     <div className="row">
                     <Team image={RossImage} name={"Ross Gartland"} role={"Chairperson"}/>
                     <Team image={RossImage} name={"James Gibson"} role={"Secretary"}/>
-                    <Team image={RossImage} name={"Jordan Stevenson"} role={"Treasurer"}/>
+                    <Team image={JordanImage} name={"Jordan Stevenson"} role={"Treasurer"}/>
                     </div>
                 </div>
         </div>

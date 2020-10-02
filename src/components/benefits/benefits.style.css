@@ -5,9 +5,9 @@
   padding-top: 50px;
 }
 .benefits-container ul {
-  padding: 0px;
+  padding-bottom: 50px;
   font-size: xx-large;
-  list-style: none;
+  list-style: none; 
 }
 .benefits-container ul li {
   padding: 15px;
