@@ -1,14 +1,15 @@
 import React from 'react';
 import './join.style.css';
- 
+
 const Join = () => {
     return (
         <div id="join" className="join-container">
             <h1 className="display-3">Join</h1>
-            <p className="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p className="text-center">To join our society, click on the following link you must be a student at Ulster University.</p>
+            <p><a href="https://www.uusu.org/organisation/21214/">https://www.uusu.org/organisation/21214/</a></p>
+            <p>To find out if our society is right for you, give us an email and we would be happy to discuss this further.</p>
+            <p>If you are an employer interested in giving a talk at our society, please send an email to the following address.</p>
+            <p><a href="#/">insertemail@gmail.com</a></p>
         </div>
     )
 }

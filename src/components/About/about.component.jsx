@@ -8,10 +8,7 @@ const About = () => {
     return (
         <div id="about" className="about-container">
             <h1 className="display-3">About</h1>
-            <p className="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p className="text-center">A society that focuses on bringing students together who have an interest in the future of human society and want to network with employers as well as other students.</p>
                 <div className="meet-the-team">
                     <div className="row">
                     <Team image={RossImage} name={"Ross Gartland"} role={"Chairperson"}/>
