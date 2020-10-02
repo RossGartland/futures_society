@@ -2,12 +2,12 @@ import React from 'react';
 import './about.style.css';
 import Team from './Team/Team.component';
 import RossImage from '../../assets/about/ross.jpg';
-import JamesImage from '../../assets/about/james.jpg';
+import JamesImage from '../../assets/about/james.png';
 import JordanImage from '../../assets/about/jordan.jpg';
 
 const About = () => {
     return (
-        <div id="about" className="about-container">
+        <div id="about" className="about-container my-container">
             <h1 className="display-3">About</h1>
             <p className="text-center">A society that focuses on bringing students together who have an interest in the future of human society and want to network with employers as well as other students.</p>
                 <div className="meet-the-team">

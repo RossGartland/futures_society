@@ -3,9 +3,9 @@ import './benefits.style.css';
 
 const Benefits = () => {
     return (
-        <div id="benefits" className="benefits-container">
+        <div id="benefits" className="benefits-container my-container">
             <h1 className="display-3">Benefits</h1>
-            <ul>
+            <ul className="my-ul">
                 <li>Make lifelong friends.</li>
                 <li>Network with other students.</li>
                 <li>Connecting students with industry.</li>

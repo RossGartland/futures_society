@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swa');
+@import url("https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swa");
 html {
   scroll-behavior: smooth;
 }
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -13,6 +13,35 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.my-container {
+  text-align: center;
+  color: white;
+  font-family: "Ropa Sans", sans-serif;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.my-ul {
+  padding-bottom: 50px;
+  font-size: xx-large;
+  list-style: none;
+}
+.my-ul li {
+  padding: 15px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .my-ul {
+    font-size: x-large;
+    padding: 10px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .my-ul {
+    font-size: x-large;
+  }
 }

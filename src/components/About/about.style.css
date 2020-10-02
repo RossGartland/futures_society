@@ -1,9 +1,6 @@
 .about-container {
   min-height: 100vh;
-  color: white;
-  font-family: "Ropa Sans", sans-serif;
-  padding-top: 50px;
-}
+} 
  
 .about-container p {
   text-align: center;

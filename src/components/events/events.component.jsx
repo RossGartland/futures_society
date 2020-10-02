@@ -3,9 +3,9 @@ import './events.style.css';
 
 const OurEvents = () => {
     return (
-        <div id="events" className="events-container">
+        <div id="events" className="events-container my-container">
             <h1 className="display-3">Events</h1>
-            <ul>
+            <ul className="my-ul">
                 <li>Monthly Book Club</li>
                 <li>Industry Expert Talks</li>
                 <li>Networking Activities</li>
