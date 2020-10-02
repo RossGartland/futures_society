@@ -33,8 +33,8 @@ const MyNav = () => {
 
     return (
         <Navbar collapseOnSelect id="navbar" className="navbar navbar-expand-lg navbar-dark navbar-inverse nav-fill w-100" expand="lg" style={{ background: colour }} >
-            <NavbarBrand href="#home">
-                <img src={Logo} width="50" height="50" alt="future society"/>
+            <NavbarBrand href="#header">
+                <img src={Logo} alt="future society"/>
                 </NavbarBrand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" onClick={() => {
                 if (colour === 'transparent') {
@@ -47,7 +47,7 @@ const MyNav = () => {
             />          
             <Navbar.Collapse id="responsive-navbar-nav" >
                 <Nav className="navbar-nav ml-auto mx-auto">
-                    <Nav.Link href="">HOME</Nav.Link>
+                    <Nav.Link href="#header">HOME</Nav.Link>
                     <Nav.Link href="#about">ABOUT</Nav.Link>
                     <Nav.Link href="#objectives">OBJECTIVES</Nav.Link>
                     <Nav.Link href="#benefits">BENEFITS</Nav.Link>

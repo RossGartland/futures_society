@@ -1,3 +1,14 @@
+.card-img-top {
+  max-width: 448px;
+  max-height: 448px;
+}
+.card-name {
+  color: #555;
+  font-size: xx-large;
+}
+.card-role {
+  font-size: x-large;
+}
 .social-link {
   width: 30px;
   height: 30px;
