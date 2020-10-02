@@ -1,33 +1,48 @@
 .navbar {
-    z-index: 2;
-    position: fixed;
-    color: white;
-  }
-  .nav-item {
-    color: white;
-  }
-  .navbar-light .navbar-nav .nav-link {
-      color:white;
-      font-family: 'Ropa Sans', sans-serif;
-      
-      margin: 0 auto;
-      padding: 35px;
-  }
-
-  .navbar-light .navbar-nav .nav-link.active {
-    color:white;
+  z-index: 2;
+  position: fixed;
+  color: white;
 }
 
-  @media only screen and (max-width: 990px) {
-    .navbar .navbar-nav {
-        display: inline-block;
-        float: none;
-    }
-    
-    .navbar .navbar-collapse {
-        text-align: center;
-    }
-    .navbar-light .navbar-nav .nav-link {
-        padding: 10px;
-    }
+.navbar-brand {
+  margin: 0 auto;
+  left: 25%;
+  position: relative;
+}
+.navbar-brand img {
+  display: block;
+  max-height: max-content;
+  width: max-content;
+}
+.nav-item {
+  color: white;
+}
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+  font-family: "Ropa Sans", sans-serif;
+
+  margin: 0 auto;
+  padding: 35px;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: white;
+}
+
+@media only screen and (max-width: 990px) {
+  .navbar .navbar-nav {
+    display: inline-block;
+    float: none;
   }
+
+  .navbar-brand {
+    left: 0%;
+  }
+
+  .navbar .navbar-collapse {
+    text-align: center;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    padding: 10px;
+  }
+}
