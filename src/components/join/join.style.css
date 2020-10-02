@@ -1,14 +1,14 @@
-.join-container p {
+.join-container p, a {
   text-align: center;
   font-size: xx-large;
 }
 @media only screen and (max-width: 1200px) {
-  .join-container p {
+  .join-container p, a {
     font-size: x-large; 
   }
 }
 @media only screen and (max-width: 600px) {
-  .join-container p {
+  .join-container p, a {
     font-size: x-large;
   }
 }

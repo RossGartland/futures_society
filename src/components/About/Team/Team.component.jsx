@@ -12,7 +12,7 @@ const Team = (props) => {
                 <div class="card-body text-center">
                     <h5 class="card-title card-name mb-0">{props.name}</h5>
                     <div class="card-text card-role text-black-50">{props.role}</div>
-                    <a class="about-icon" href={props.linkedin}><FontAwesomeIcon icon={faLinkedin}/></a>
+                    <a class="about-icon" href={props.linkedin} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin}/></a>
                 </div>
             </div>
         </div>

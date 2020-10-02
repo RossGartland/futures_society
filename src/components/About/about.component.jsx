@@ -12,12 +12,12 @@ const About = () => {
             <p className="text-center">A society that focuses on bringing students together who have an interest in the future of human society and want to network with employers as well as other students.</p>
                 <div className="meet-the-team">
                     <div className="row">
-                    <Team image={RossImage} name={"Ross Gartland"} role={"Chairperson"}/>
-                    <Team image={JamesImage} name={"James Gibson"} role={"Secretary"}/>
-                    <Team image={JordanImage} name={"Jordan Stevenson"} role={"Treasurer"}/>
+                    <Team image={RossImage} name={"Ross Gartland"} role={"Chairperson"} linkedin={"https://www.linkedin.com/in/rossgartland/"}/>
+                    <Team image={JamesImage} name={"James Gibson"} role={"Secretary"} linkedin={"https://www.linkedin.com/in/james-gibson-1973bb198/"}/>
+                    <Team image={JordanImage} name={"Jordan Stevenson"} role={"Treasurer"} linkedin={"https://www.linkedin.com/in/jordan-stevenson-44479b1a0/"}/>
                     </div>
                 </div>
         </div>
-    )
+    ) 
 }
 export default About;
